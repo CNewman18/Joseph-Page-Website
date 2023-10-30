@@ -3,7 +3,7 @@
   --secondary-color: #111d5e;
   --background-color: #ffbd69;
   --accent-color: #fe346e;
-  --drop-shadow: drop-shadow(-1px 1px 6px #808080);
+  --drop-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 body {
@@ -90,6 +90,7 @@ footer {
 .information-tiles div {
   font-size: 30px;
   margin: 30px auto;
+  text-align: center;
 }
 
 .information-tiles a {
