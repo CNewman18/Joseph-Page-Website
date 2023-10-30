@@ -64,6 +64,13 @@ footer {
 
 .welcome-text-container a {
   text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.welcome-text-container a:hover {
+  font-size: 32px;
+  transition: ease-in-out;
+  color: black;
 }
 
 .welcome-text-container img {
@@ -83,6 +90,17 @@ footer {
 .information-tiles div {
   font-size: 30px;
   margin: 30px auto;
+}
+
+.information-tiles a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.information-tiles a:hover {
+  font-size: 32px;
+  transition: ease-in-out;
+  color: black;
 }
 
 @media (max-width: 950px) {
