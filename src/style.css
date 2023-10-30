@@ -57,14 +57,26 @@ footer {
 .welcome-text-container p {
   text-align: center;
   margin-top: 20px;
+  font-size: 30px;
+  margin-top: 50px;
 }
 
 .welcome-text-container a {
   text-decoration: none;
 }
 
+.welcome-text-container img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 .h3-first-child {
   margin-top: 20px;
+}
+
+.below-image-text {
+  margin-top: 0px;
 }
 
 @media (max-width: 950px) {
