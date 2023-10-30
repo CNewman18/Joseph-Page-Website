@@ -1,8 +1,8 @@
 :root {
   --primary-color: #b21f66;
-  --secondary-color: #fe346e;
+  --secondary-color: #111d5e;
   --background-color: #ffbd69;
-  --accent-color: #111d5e;
+  --accent-color: #fe346e;
   --drop-shadow: drop-shadow(-1px 1px 6px #808080);
 }
 
@@ -21,4 +21,12 @@ h4 {
 
 footer {
   color: var(--accent-color);
+}
+
+.navbar-accent {
+  background-color: var(--accent-color);
+}
+
+.navbar-collapse a {
+  font-size: 15px;
 }
