@@ -35,6 +35,7 @@ h4 {
 
 footer {
   color: var(--accent-color);
+  margin: 100px;
 }
 
 .navbar-accent {
@@ -51,7 +52,7 @@ footer {
 }
 
 .welcome-text-container {
-  margin-bottom: 200px;
+  margin-bottom: 500px;
 }
 
 .welcome-text-container p {
@@ -77,6 +78,11 @@ footer {
 
 .below-image-text {
   margin-top: 0px;
+}
+
+.information-tiles div {
+  font-size: 30px;
+  margin: 30px auto;
 }
 
 @media (max-width: 950px) {
