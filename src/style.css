@@ -45,3 +45,21 @@ footer {
   font-size: 12px;
   font-weight: bold;
 }
+
+.active {
+  color: black;
+}
+
+.welcome-text-container {
+  margin-bottom: 200px;
+}
+
+@media (max-width: 950px) {
+  h3 {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+}
