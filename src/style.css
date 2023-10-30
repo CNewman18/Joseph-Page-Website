@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #b21f66;
+  --secondary-color: #fe346e;
+  --background-color: #ffbd69;
+  --accent-color: #111d5e;
+  --drop-shadow: drop-shadow(-1px 1px 6px #808080);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2 {
+  color: var(--primary-color);
+}
+
+h4 {
+  color: var(--secondary-color);
+}
+
+footer {
+  color: var(--accent-color);
+}
