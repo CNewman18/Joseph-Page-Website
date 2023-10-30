@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--background-color);
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1,
